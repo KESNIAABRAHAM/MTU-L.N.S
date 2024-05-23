@@ -1,0 +1,54 @@
+
+
+.searchbar{
+    height: 40px;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 1%;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.searchbutton {
+    margin-left: 1%;
+    width: 5%;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #6610f2;
+    text-emphasis-color: black;
+
+}
+
+.map-container{
+    height: 600px; /* Set a fixed height for the map container */
+    width: 100%;
+}
+
+.map{
+    height: 100%; /* Ensure the map fills the entire container */
+  width: 100%;
+
+}
+
+@media screen  and (max-width: 768px){
+    .searchbutton{
+    height: 40px;
+    width: 30%;
+    margin-left: -19%;
+    margin: 0%;
+    border-radius: none;
+    }
+    .searchbar{
+        height: 40px;
+        width: 57%;
+        margin-left: 10%;
+        margin-top: 4%;
+        align-items: center;
+        text-align: center;
+        border-radius: none;
+    }
+    
+}

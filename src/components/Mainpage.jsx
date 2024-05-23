@@ -130,7 +130,7 @@ export default function Mainpage() {
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             {userLocation && (
-              <Marker position={[userLocation.lat, userLocation.lng]}>
+              <Marker position={[userLocation.lat, userLocation.lng]} style= {{color:"green"}}>
                 <Popup>Your Location</Popup>
               </Marker>
             )}

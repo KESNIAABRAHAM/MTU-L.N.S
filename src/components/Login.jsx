@@ -105,7 +105,6 @@ export const Login = () => {
           value={email}
           required
         />
-      
         <input
           type="password"
           placeholder="Enter your password"

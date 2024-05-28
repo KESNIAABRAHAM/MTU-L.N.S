@@ -14,7 +14,17 @@
     text-align: center;
     border-radius: 10px;
     border: 2px solid black;
+    /* margin-top: 2%; */
+    margin-bottom: 4%;
+}
+.inputfields1{
+    width: 65%;
+    height:50px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
     margin-top: 2%;
+  
 }
 .button{
     width: 40%;
@@ -23,10 +33,21 @@
     font-size: 19px;
     background-color:#6610f2;
     cursor: pointer;
-    margin-top: 1%;
+    margin-bottom: 9%;
     color: white;
 }   
-
+.logo{
+    margin-bottom: 4%;
+}
+.MTU{
+    margin-bottom: 3%;
+}
+.welcome{
+    margin-bottom: 3%;
+}
+.login{
+    margin-bottom: 3%;
+}
 @media screen and (max-width: 768px){
     .containerone{
      width: 85%;
@@ -36,13 +57,16 @@
 
     }
     .MTU{
-        margin-bottom: 1%;
+        margin-bottom: 9%;
     }
     .logo{
-        margin-bottom: 1%;
+        margin-bottom: 0%;
         width: 40%;
     }
     .login{
-        margin-bottom: 0%;
+        margin-bottom: 3%;
     }
+    .welcome{
+        margin-bottom: 7%;
+        }
 }

@@ -86,13 +86,13 @@ export const Login = () => {
         style={{ width: "90px" }}
         className="logo"
       />{" "}
-      <br /> <br />
+      
       <h1 style={{ fontSize: "20px" }} className="MTU">
         MTU LOCATION NAVIGATION SYSTEM
       </h1>
-      <br />
-      <h2 style={{ fontSize: "19px" }}>Welcome To MTU </h2>
-      <br />
+      
+      <h2 style={{ fontSize: "19px" }} className="welcome">Welcome To MTU </h2>
+      
       <h1 style={{ fontSize: "20px" }} className="login">
         LOG IN
       </h1>
@@ -105,12 +105,11 @@ export const Login = () => {
           value={email}
           required
         />
-        <br />
-        <br />
+      
         <input
           type="password"
           placeholder="Enter your password"
-          className="inputfields"
+          className="inputfields1"
           onChange={handlePasswordChange}
           value={password}
           required
@@ -119,7 +118,7 @@ export const Login = () => {
         <button className="button" onClick={signIn}>
           SIGN IN
         </button>
-        <br /> <br />
+      
         {signInError && (
           <p className="error-message" style={{ color: "red" }}>
             {signInError}

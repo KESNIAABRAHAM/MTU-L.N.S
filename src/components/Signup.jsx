@@ -87,12 +87,12 @@ export default function Signup() {
   return (
     <div className="container">
       <form action="" onSubmit={handleSubmit}>
-        <br />
-        <img src={Mtu} alt="Mtu" style={{ width: "90px" }} /> <br />
-        <br />
-        <h1 style={{ fontSize: "20px" }}>MTU LOCATION NAVIGATION SYSTEM</h1>
-        <br />
-        <h3 style={{ fontSize: "18px" }}>Sign up to Navigate</h3>
+        
+        <img src={Mtu} alt="Mtu" style={{ width: "90px" }} className="logo"/> <br />
+        
+        <h1 style={{ fontSize: "20px" }} className="mtu">MTU LOCATION NAVIGATION SYSTEM</h1>
+        
+        <h3 style={{ fontSize: "18px" }} className="signup">Sign up to Navigate</h3>
         <input
           type="email"
           placeholder="Enter email Address"
@@ -101,22 +101,22 @@ export default function Signup() {
           className="inputfields"
           required
         />
-        <br /> <br />
+        
         <input
           type="Password"
           name="password"
           placeholder="Password"
-          className="inputfields"
+          className="inputfield2"
           onChange={handlePasswordChangeOne}
           required
         />
-        <br />
-        <br />
+        
+        
         <input
           type="password"
           name="password"
           placeholder="confirmpassword"
-          className="inputfields"
+          className="inputfield3"
           onChange={handleConfirmPasswordChange}
           required
         />

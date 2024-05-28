@@ -15,6 +15,25 @@
     border-radius: 10px;
     border: 2px solid black;
     /* margin-left: 20%; */
+    margin-bottom: 5%;
+}
+.inputfield2{
+    width: 65%;
+    height:50px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* margin-left: 20%; */
+    margin-bottom: 5%;
+}
+.inputfield3{
+    width: 65%;
+    height:50px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* margin-left: 20%; */
+    margin-bottom: 3%;
 }
 .button{
     width: 45%;
@@ -27,7 +46,15 @@
     border: 2.5px solid black;
     /* margin-top: 8%; */
 }
-
+.logo{
+    margin-bottom: 3%;
+}
+.mtu{
+    margin-bottom: 3%;
+}
+.signup{
+    margin-bottom: 3%;
+}
 @media screen and (max-width: 768px){
     .container {
      width: 90%;
@@ -35,5 +62,41 @@
      box-shadow: none;
     }
     
-    
+    .inputfield2{
+        width: 65%;
+        height:50px;
+        text-align: center;
+        border-radius: 10px;
+        border: 2px solid black;
+        /* margin-left: 20%; */
+        margin-bottom: 10%;
+    }
+    .inputfield3{
+        width: 65%;
+        height:50px;
+        text-align: center;
+        border-radius: 10px;
+        border: 2px solid black;
+        /* margin-left: 20%; */
+        margin-bottom: 6%;
+    }
+
+    .inputfields{
+        width: 65%;
+        height:50px;
+        text-align: center;
+        border-radius: 10px;
+        border: 2px solid black;
+        /* margin-left: 20%; */
+        margin-bottom: 10%;
+    }
+    .logo{
+        margin-bottom: 9%;
+    }
+    .mtu{
+        margin-bottom: 9%;
+    }
+    .signup{
+        margin-bottom: 9%;
+    }
 }
